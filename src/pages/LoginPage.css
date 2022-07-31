@@ -11,9 +11,10 @@
   align-items: center;
 }
 .spotifyLogo {
+    margin-top: 30px;
   width: 80%;
   filter: invert(1);
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .loginButton {
   width: 300px;
@@ -27,6 +28,7 @@
   background-color: #26e469;
   transform: scale(1.05);
 }
-.loginButton:active{
-    transform: scale();
+.loginButton:active {
+  transform: scale(1);
+  background-color: #1ed760;
 }
